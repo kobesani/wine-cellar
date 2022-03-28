@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "wine-cellar"
+version = "0.1.0"
+description = "Scraper app for wine-reviews"
+authors = ["Kobe <harold.rockata@gmail.com>"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+SQLAlchemy = "^1.4.32"
+alembic = "^1.7.7"
+luigi = "^3.0.3"
+parsel = "^1.6.0"
+pandas = "^1.4.1"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.2.0"
+black = "^22.3.0"
+mypy = "^0.942"
+pytest = "^7.1.1"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
